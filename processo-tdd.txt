@@ -1,0 +1,10 @@
+O processo utilizado no projeto começa com a escrita de um teste funcional, para testar uma história.
+Ao rodar o teste, caso ele não passe, é escrito no ciclo de um teste unitário, descrito a seguir, caso
+o teste passe, e não precise refatorar a aplicação, um novo teste funcional é escrito. Caso haja necessidade,
+entra no ciclo do teste unitário novamente.
+
+Para o teste unitário, é escrito um teste para a falha que ocorre no teste funcional, e então é rodado.
+Caso o teste passe, e a aplicação não precise de ser refatorada, o ciclo acaba e retorna ao ciclo do teste
+funcional. Caso o teste falhe, é escrito uma quantidade de código mínima para que ele passe. E então é avaliado 
+novamente a necessidade de refatoração. Sendo necessário, é novamente escrita a quantidade mínima de código, e
+volta a rodar o teste, fazendo esse ciclo até que ele passe e não seja necessário refatorar
