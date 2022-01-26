@@ -1,0 +1,5 @@
+Os testes funcionais testam se um determinado requisito do sistema funciona corretamente, assim, ele simula o comportamento de um usuário no sistema. Por esse motivo,
+consome mais recurso tanto para a escrita, quanto para rodar.
+
+Os testes de unidade testam se uma determinada unidade do sistema, seja uma classe ou função, com diversos cenários para que possam ser verificados possíveis problemas no código.
+É um tipo de teste mais barato em termos de recurso, e também o mais "básico", sendo assim o mais fácil de ser escrito e rodado.
